@@ -15,5 +15,11 @@ int main()
         cout << "Pernyataan ini tidak akan dieksekusi" << endl;
     }
 
+    // Catch block for integer exceptions (won’t be triggered in this case)
+    catch (int a)
+    {
+        cout << "Pengecualian bertipe int ditangani" << endl;
+    }
+
     
 }
