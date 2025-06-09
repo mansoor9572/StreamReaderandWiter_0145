@@ -28,5 +28,7 @@ int main()
 
     outfile.close();  // Close the file after writing (good practice)
 
-    
+    ifstream infile;  // Input file stream to read from a file
+
+   
 }
