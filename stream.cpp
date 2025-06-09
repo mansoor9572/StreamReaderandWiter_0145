@@ -30,5 +30,7 @@ int main()
 
     ifstream infile;  // Input file stream to read from a file
 
-   
+    infile.open("contohfile.txt");  // Open the same file for reading
+
+  
 }
