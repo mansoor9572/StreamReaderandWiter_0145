@@ -21,5 +21,11 @@ int main()
         cout << "Pengecualian bertipe int ditangani" << endl;
     }
 
-    
+    // Catch-all block to handle any other type of exception
+    catch (...)
+    {
+        cout << "Pengecualian default ditangani" << endl;
+    }
+
+    return 0;  // End of the program
 }
