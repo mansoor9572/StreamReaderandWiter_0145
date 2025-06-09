@@ -20,5 +20,8 @@ int main()
         cout << "Masukan baris ";  // Prompt user for input
         getline(cin, baris);       // Read entire line from user
 
-       
+        if (baris == "q")          // Check if user wants to quit
+            break;
+
+      
 }
