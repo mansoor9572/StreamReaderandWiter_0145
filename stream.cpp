@@ -23,5 +23,10 @@ int main()
         if (baris == "q")          // Check if user wants to quit
             break;
 
-      
+        outfile << baris << endl;  // Write line to file
+    }
+
+    outfile.close();  // Close the file after writing (good practice)
+
+    
 }
