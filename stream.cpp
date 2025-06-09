@@ -16,5 +16,9 @@ int main()
     cout << ">= Menulis file, 'q' untuk keluar" << endl;
 
     while (true)
-   
+    {
+        cout << "Masukan baris ";  // Prompt user for input
+        getline(cin, baris);       // Read entire line from user
+
+       
 }
