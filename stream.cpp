@@ -13,5 +13,8 @@ int main()
 
     outfile.open("contohfile.txt");  // Create and open the file for writing
 
+    cout << ">= Menulis file, 'q' untuk keluar" << endl;
+
+    while (true)
    
 }
