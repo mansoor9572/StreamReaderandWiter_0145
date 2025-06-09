@@ -32,5 +32,18 @@ int main()
 
     infile.open("contohfile.txt");  // Open the same file for reading
 
-  
+    cout << endl << ">= Membuka dan membaca file" << endl;
+
+    // Check if the file opened successfully
+    if (infile.is_open())
+    {
+        while (getline(infile, baris))  // Read line by line from the file
+        {
+            cout << baris << endl;      // Output each line to the screen
+        }
+
+        infile.close();  // Close the file after reading
+    }
+
+    return 0;  // End of program
 }
